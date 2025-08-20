@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.background {
+    background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px),
+      radial-gradient(#ffffff 2.5px, transparent 2.5px);
+    background-size: 36px 36px;
+    background-position: 0 0, 18px 18px;
+    background-color: #b1d2ff;
+  }
+  
+  /* .spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: conic-gradient(#0000 10%, #474bff);
+    -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 0);
+    animation: spinner-zp9dbg 1s infinite linear;
+  }
+  
+  @keyframes spinner-zp9dbg {
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+
+/* 
+  .custom-loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: 
+      radial-gradient(farthest-side,#766DF4 94%,#0000) top/8px 8px no-repeat,
+      conic-gradient(#0000 30%,#766DF4);
+    -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+    animation:s3 1s infinite linear;
+  }
+  
+  @keyframes s3{ 
+    100%{transform: rotate(1turn)}
+  } */
+   .spinner {
+   width: 56px;
+   height: 56px;
+   border: 11.2px #474bff double;
+   border-left-style: solid;
+   border-radius: 50%;
+   animation: spinner-aib1d7 0.75s infinite linear;
+}
+
+@keyframes spinner-aib1d7 {
+   to {
+      transform: rotate(360deg);
+   }
+}
