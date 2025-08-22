@@ -4,7 +4,7 @@ import axios from "axios";
 import Spinner from "./Spinner";
 //api key ko mangana ka liy .even wla mai se ye lihkhan padhega
 
-const API_KEY = process.env.REACT_APP_GIPHY_API_KEY;
+const API_KEY = C6ftKiv6uCEe97DOrWXG8QYdMxXA4yNj;
 
 
 function Random() {
@@ -46,5 +46,6 @@ const[loading,setLoading]=useState(false);
     </div>
   )
 }
+
 
 export default Random;
